@@ -13,11 +13,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="294" column="33" lean-forward="true" selection-start-line="294" selection-start-column="33" selection-end-line="294" selection-end-column="33" />
+            <state relative-caret-position="-17">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <element signature="e#4574#7440#0" />
               </folding>
             </state>
           </provider>
@@ -37,6 +36,7 @@
       <find>mahotas</find>
       <find>path</find>
       <find>IMAGE_SIZE</find>
+      <find>TRAIN_PATH</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -46,11 +46,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="120" />
-    <option name="y" value="-776" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -63,11 +62,6 @@
             <path>
               <item name="SL2NL" type="b2602c69:ProjectViewProjectNode" />
               <item name="SL2NL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SL2NL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SL2NL" type="462c0819:PsiDirectoryNode" />
-              <item name="train_images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SL2NL" type="b2602c69:ProjectViewProjectNode" />
@@ -112,11 +106,21 @@
       <workItem from="1556203764628" duration="7352000" />
       <workItem from="1556215278066" duration="169000" />
       <workItem from="1556272351567" duration="5286000" />
+      <workItem from="1556278077264" duration="9000" />
+      <workItem from="1556469653144" duration="3834000" />
+      <workItem from="1556533709569" duration="2000" />
+      <workItem from="1556556649150" duration="2775000" />
+      <workItem from="1556622775204" duration="1083000" />
+      <workItem from="1556624268740" duration="260000" />
+      <workItem from="1556630112846" duration="1931000" />
+      <workItem from="1556644007101" duration="125000" />
+      <workItem from="1556644144800" duration="621000" />
+      <workItem from="1556651567379" duration="1947000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12807000" />
+    <option name="totallyTimeSpent" value="25394000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -128,10 +132,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-1088" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.5820569" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -145,7 +148,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.33586133" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4989339" visible="true" weight="0.33586133" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4989339" visible="true" weight="0.3391685" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -160,11 +163,10 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="294" column="33" lean-forward="true" selection-start-line="294" selection-start-column="33" selection-end-line="294" selection-end-column="33" />
+        <state relative-caret-position="-17">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <element signature="e#4574#7440#0" />
           </folding>
         </state>
       </provider>

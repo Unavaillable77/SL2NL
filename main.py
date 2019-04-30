@@ -126,7 +126,7 @@ def prediction(image):
         np.array([np.hstack([moments(image), haralick(image), color_histogram(image), feature_vector(image)])]))
     accuracy = globalModel.predict_proba(
         np.array([np.hstack([moments(image), haralick(image), color_histogram(image), feature_vector(image)])]))
-    print("prediction", predictionImg, " accuracy", accuracy)
+    # print("prediction", predictionImg, " accuracy", accuracy)
     pred = predictionImg[0]
 
     if (pred != pastPrediction) and (np.array(pd.DataFrame(accuracy).max(1)) >= 0.98) and (pred != 'other'):
@@ -183,9 +183,9 @@ def train():
         #######################################
         # feature extraction
         f_moments = moments(image)
+        f_haralick = haralick(image)
         histogram = color_histogram(image)
         pixels = feature_vector(image)
-        f_haralick = haralick(image)
 
         # update the images feature and labels matrices respectively
         all_features = np.hstack([f_moments, f_haralick, histogram, pixels])
@@ -207,15 +207,15 @@ def train():
     # of the data for training and the remaining 10% for testing
     (trainRawImg, testRawImg, trainRawLabel, testRawLabel) = train_test_split(imageFeature, labels,
                                                                               test_size=TEST_SIZE,
-                                                                              random_state=9)
+                                                                              random_state=0)
 
-    print("[STATUS] splitted train and test data...")
+    print("[STATUS] split train and test data...")
     print("Train data  : {}".format(trainRawImg.shape))
     print("Test data   : {}".format(testRawImg.shape))
     print("Train labels: {}".format(trainRawLabel.shape))
     print("Test labels : {}".format(testRawLabel.shape))
 
-    # train and evaluate a k-NN classifer on the raw pixel intensities
+    # train and evaluate a k-NN model on the raw pixel intensities
     print("[INFO] Evaluating raw pixel accuracy...")
     model = KNeighborsClassifier(n_neighbors=NEIGHBOURS, n_jobs=JOBS)
     model.fit(trainRawImg, trainRawLabel)
