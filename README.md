@@ -7,6 +7,9 @@ The implementation initially aimed to use a Convolutional Neural Network and Ten
 
 The proof of concept is a functioning prototype with basic usability that can be successfully trained on small amounts of data providing a strong foundation from which to further build upon.
 
+# Updates 
+The project has been represented at Westminster International University in Tashkent, Uzbekistan. And it has been featured on the local news, it can be found [here](https://www.youtube.com/watch?v=negbylETJCM).
+
 ## Requirements
 Python Version 3.7.2
 
