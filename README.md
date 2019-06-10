@@ -3,7 +3,7 @@ This project has been developed in partial fulfilment of the requirements for th
 
 This project aims to investigate Gesture Recognition techniques and approaches in order to classify Sign Language gestures and interpret them in Natural Language text.
 
-The implementation initially aimed to use a Convolutional Neural Network and TensorFlow for Machine Learning; however,a trade-off between accuracy and complexity was made and the implementation was achieved using the K – Nearest Neighbours algorithm. 
+The implementation initially aimed to use a Convolutional Neural Network and TensorFlow for Machine Learning; however, a trade-off between accuracy and complexity was made and the implementation was achieved using the K – Nearest Neighbours algorithm. 
 
 The proof of concept is a functioning prototype with basic usability that can be successfully trained on small amounts of data providing a strong foundation from which to further build upon.
 
